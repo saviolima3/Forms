@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    
+    <header>
+        <p class="prev">Previa do formulario</p>
+        <h2>Novo Usuario</h2>
+        
+
+    </header>
+
+    
+    <main>
+        <form>
+            <fieldset>
+               
+            <div id="contenerbox"> 
+             
+                <label class="lpaciente">Nome: </label>
+                
+                <div class="box1">
+
+                          
+
+            <input type="text" name="Nome" id="usuario" value="Primeiro Nome">
+              
+            <input type="text" name="Sobrenome" id="usuario" value="Sobre Nome">
+                
+               </div>
+
+               <label class="datenasc"> Data de Nascimento:</label>
+                
+               <div class="box2">
+
+                  <input class="dtn" type="date" name="date" id="data">
+
+                </div> 
+
+              
+             <div class="sexo">
+              
+                <label > Sexo </label>
+            
+            </div>
+
+
+            <div class="fm"> 
+                
+                     <label> Masculino  <input type="radio" name="genero" id="macho"> </label>
+                     <label> Femino <input type="radio" name="genero" id="feminino">  </label>
+            </div>
+             
+            <div class="labelfone">
+
+                <label class="contato">Telefone : </label>        
+
+            </div>
+            
+                <div class="divfone"> 
+                
+                     <input type="tel" name="contatos" id="fone"> 
+             
+                </div>
+
+                 <div>
+
+                <label class="labelen"> Endereço: </label>
+                 
+                </div>
+                
+                <div class="divend"> 
+                    
+
+                <input type="text" name="enredeco" id="endec">
+                
+                <label class="numbe">N°</label> 
+                <input type="number" name="numero" id="num">
+            
+               </div>
+            
+            <div> 
+             
+                 <button type="submit" id="btn"> Enviar </button>
+            
+            </div>
+
+        </div> 
+
+        </form>
+            </fieldset>
+    </main>
+    
+</body>
+</html>

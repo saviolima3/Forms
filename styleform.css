@@ -1,0 +1,172 @@
+
+header {
+
+background-color: rgba(26, 73, 57, 0.58);
+margin: 20px;
+padding: 09px;
+color: aliceblue;
+
+}
+
+/* Previa do formulario*/
+.prev {
+
+    text-align: center;
+    background-color: rgb(72, 110, 165);
+    width: 190px;
+    margin: auto;
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+}
+
+.box1 {
+
+        font-size: large;
+        font-weight: bold;
+        color: rgb(255, 252, 252);
+        margin-top: -19px;
+        
+}
+
+.box2 {
+
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    margin: -22px;
+        
+}
+
+.dtn {
+     
+     padding: 6px;
+
+    }
+
+    .fm {
+
+        margin: -30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        font-weight: bold;
+        color: aliceblue;
+       
+    }
+    .sexo { 
+
+        text-align: center;
+        color: rgb(254, 253, 253);
+        font-size: 18px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        font-weight: bold;
+        margin: 45px;
+
+    }
+
+.lpaciente {
+    display: flex;
+    text-align: left;
+    color: rgb(246, 242, 242);
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+ 
+
+}
+
+
+.datenasc {
+    display: block;
+    text-align: left;
+    margin-top: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+}
+
+#contenerbox {
+
+ margin: auto;
+ margin-top: 28px;
+ 
+}
+
+.contato {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+    display: flex;
+    text-align: left; 
+    margin-top: 69px;  
+    color: aliceblue;
+}
+
+
+.divfone {
+  
+    margin: -20px;
+   
+}
+
+main {
+    text-align: center;  
+    background-color: rgb(22, 21, 22);
+    padding: 40px;
+    max-width: 500px;
+    width: 500px;
+    height: 549px;
+    margin: auto;
+    border-radius: 15px; 
+}
+
+body {
+    background-image: linear-gradient(to right,rgb(1, 10, 1),rgb(17,54,71));
+}
+
+#btn {
+
+    margin: 98px 98px;
+    border: solid rgba(67, 67, 217, 0.475);
+    border-radius: 8px;
+    width: 255px;
+    height: 30px;
+    
+}
+
+.divend {
+    margin: -15px;
+    text-align: center;
+    
+}
+.labelen {
+     display: flex;
+     margin-top: 68px;
+     text-align: left;
+     color: rgb(246, 239, 239);
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+    
+}
+.numbe {
+
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: bold;
+     
+}
+#num {
+    width: 35px;
+
+}
+
+fieldset {
+
+    border: 3px solid rgb(31, 89, 122);
+
+
+}
+
+#btn:hover {
+   background-color: rgba(49, 57, 70, 0.558);
+
+}
